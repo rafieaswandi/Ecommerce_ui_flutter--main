@@ -1,5 +1,3 @@
-// ignore_for_file: deprecated_member_use
-
 import 'package:ecommerce_ui/utils/app_textstyles.dart';
 import 'package:ecommerce_ui/view/notifications/models/notification_type.dart';
 import 'package:ecommerce_ui/view/notifications/repositories/notification_repository.dart';

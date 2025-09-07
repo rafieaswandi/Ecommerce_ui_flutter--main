@@ -1,5 +1,3 @@
-// ignore_for_file: deprecated_member_use
-
 import 'package:ecommerce_ui/controllers/auth_controller.dart';
 import 'package:ecommerce_ui/utils/app_textstyles.dart';
 import 'package:ecommerce_ui/view/my%20orders/view/screens/my_orders_screen.dart';
@@ -14,7 +12,6 @@ class AccountScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final screenSize = MediaQuery.of(context).size;
     final isDark = Theme.of(context).brightness == Brightness.dark;
 
     return Scaffold(

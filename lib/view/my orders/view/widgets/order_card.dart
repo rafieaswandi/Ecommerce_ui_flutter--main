@@ -1,4 +1,4 @@
- import 'package:ecommerce_ui/utils/app_textstyles.dart';
+import 'package:ecommerce_ui/utils/app_textstyles.dart';
 import 'package:ecommerce_ui/view/my%20orders/model/model.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_utils/get_utils.dart';
