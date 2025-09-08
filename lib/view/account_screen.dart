@@ -1,5 +1,6 @@
 import 'package:ecommerce_ui/controllers/auth_controller.dart';
 import 'package:ecommerce_ui/utils/app_textstyles.dart';
+import 'package:ecommerce_ui/view/edit%20profile/views/screens/edit_profile_screen.dart';
 import 'package:ecommerce_ui/view/my%20orders/view/screens/my_orders_screen.dart';
 import 'package:ecommerce_ui/view/settings_screen.dart';
 import 'package:ecommerce_ui/view/shipping%20address/shipping_address_screen.dart';
@@ -79,9 +80,12 @@ Widget _buildProfileSection(BuildContext context) {
         ),
         SizedBox(height: 16),
         OutlinedButton(
-          onPressed: () {},
+          onPressed: () => Get.to(() => const EditProfileScreen()),
           style: OutlinedButton.styleFrom(
-            padding: EdgeInsets.symmetric(horizontal: 32, vertical: 12),
+            padding: EdgeInsets.symmetric(
+              horizontal: 32, 
+              vertical: 12
+              ),
             side: BorderSide(color: isDark ? Colors.white70 : Colors.black12),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(12),
